@@ -6,6 +6,17 @@ NotifyEasily is a communication service that provides SMS, email, and push notif
 - Java
 - Spring Boot
 
+## Project Structure
+### Notification Integration Service Classes:
+- Interfaces in **com.NotifEaze.NotifEaze.service** Package:
+  - Contains interface definitions for SMS, email, and notification services.
+  - Likely includes EmailService, PushNotificationService, and SmsService interfaces.
+- Implementation Classes in **com.NotifEaze.NotifEaze.service.impl** Package:
+  - Contains sample implementations for Gupshup (SMS, email, PN) and Kaylera (SMS, Email, PN).
+  - Include classes like SmsServiceImpl, EmailServiceImpl, NotificationServiceImpl, etc.
+
+
+
 ## Getting Started
 To get started with NotifyEasily, follow these steps:
 
