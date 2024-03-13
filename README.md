@@ -5,9 +5,6 @@ NotifyEasily is a communication service that provides SMS, email, and push notif
 ## Technologies Used
 - Java
 - Spring Boot
-- MockMvc
-- JUnit
-- Mockito
 
 ## Getting Started
 To get started with NotifyEasily, follow these steps:
