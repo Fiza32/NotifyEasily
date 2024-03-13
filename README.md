@@ -28,13 +28,13 @@ To get started with NotifyEasily, follow these steps:
 
 ## Usage
 ### Sending SMS
-- To send an SMS, make a POST request to /api/communication/send-sms with the message content in the request body.
+- To send an SMS, make a POST request to **/api/communication/send-sms** with the message content in the request body.
 
 ### Sending Email
-- To send an email, make a POST request to /api/communication/send-email with the email content in the request body.
+- To send an email, make a POST request to **/api/communication/send-email** with the email content in the request body.
 
 ### Sending Push Notification
-- To send a push notification, make a POST request to /api/communication/send-notification with the notification content in the request body.
+- To send a push notification, make a POST request to **/api/communication/send-notification** with the notification content in the request body.
 
 ## Contributors
 - Md Faizan Raza
