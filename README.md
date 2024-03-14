@@ -12,10 +12,19 @@ NotifyEasily is a communication service that provides SMS, email, and push notif
   - Contains interface definitions for SMS, email, and notification services.
   - Likely includes EmailService, PushNotificationService, and SmsService interfaces.
 - Implementation Classes in **com.NotifEaze.NotifEaze.service.impl** Package:
-  - Contains sample implementations for Gupshup (SMS, email, PN) and Kaylera (SMS, Email, PN).
+  - Contains sample implementations for Gupshup (SMS, email, PN).
   - Include classes like SmsServiceImpl, EmailServiceImpl, NotificationServiceImpl, etc.
 
+### Mock Class:
+- **GupshupMock** Class in **com.NotifEaze.NotifEaze.mock** Package:
+  - Provides mocked responses for various communication channels, including SMS, email, and push notifications.
+  - Designed for testing purposes to simulate different scenarios and responses from the Gupshup API or a similar communication service.
 
+### Controller Class:
+- **CommunicationController** Class in **com.NotifEaze.NotifEaze.controller** Package:
+  - A sample controller for testing the services.
+  - Contains API endpoints for sending SMS, email, push notifications, and checking delivery status.
+  - Uses instances of EmailService, PushNotificationService, and SmsService to handle the communication.
 
 ## Getting Started
 To get started with NotifyEasily, follow these steps:
